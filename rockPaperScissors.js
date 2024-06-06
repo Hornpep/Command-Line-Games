@@ -2,7 +2,7 @@
 const moves = ["rock", "paper", "scissors"];
 
 //User Input
-const playersChoice = process.argv.slice(2)[0].toLowerCase(); 
+const playersChoice = process.argv.slice(2)[0].toLowerCase(); //Weil process.argv ein Array ausgibt miss noch der Index [0] rein, um an die Eingabe zu kommen. 
 console.log(`You chose ${playersChoice}`);
 
 //Computer wählt hier zufällig aus dem moves array
